@@ -9,8 +9,15 @@ namespace Converter.WinForms {
             Application.Exit();
         }
 
+        private void clear() {
+            error.Text = "";
+            resultNumber.Text = "";
+            resultUnit.Text = "";
+        }
+
         private void celsiusToFahrenheit_CheckedChanged_1(object sender, EventArgs e) {
             if(Convert.ToDouble(inputTextfield.Text) >= -273.15) {
+                clear();
                 // convert celsius to fahrenheit
                 double celsius = Convert.ToDouble(inputTextfield.Text);
                 double fahrenheit = celsius * 1.8 + 32;
@@ -18,6 +25,7 @@ namespace Converter.WinForms {
                 inputUnit.Text = "°C";
                 resultUnit.Text = "°F";
             } else {
+                clear();
                 // show error message
                 error.Text = "Temperature below absolute zero!";
             }
@@ -25,6 +33,7 @@ namespace Converter.WinForms {
 
         private void fahrenheitToCelsius_CheckedChanged(object sender, EventArgs e) {
             if(Convert.ToDouble(inputTextfield.Text) >= -459.67) {
+                clear();
                 // convert fahrenheit to celsius
                 double fahrenheit = Convert.ToDouble(inputTextfield.Text);
                 double celsius = (fahrenheit - 32) / 1.8;
@@ -32,6 +41,7 @@ namespace Converter.WinForms {
                 inputUnit.Text = "°F";
                 resultUnit.Text = "°C";
             } else {
+                clear();
                 // show error message
                 error.Text = "Temperature below absolute zero!";
             }
@@ -39,6 +49,7 @@ namespace Converter.WinForms {
 
         private void celsiusToKelvin_CheckedChanged(object sender, EventArgs e) {
             if(Convert.ToDouble(inputTextfield.Text) >= -273.15) {
+                clear();
                 // convert celsius to kelvin
                 double celsius = Convert.ToDouble(inputTextfield.Text);
                 double kelvin = celsius + 273.15;
@@ -46,6 +57,7 @@ namespace Converter.WinForms {
                 inputUnit.Text = "°C";
                 resultUnit.Text = "K";
             } else {
+                clear();
                 // show error message
                 error.Text = "Temperature below absolute zero!";
             }
@@ -53,6 +65,7 @@ namespace Converter.WinForms {
 
         private void kelvinToCelsius_CheckedChanged(object sender, EventArgs e) {
             if(Convert.ToDouble(inputTextfield.Text) >= 0) {
+                clear();
                 // convert kelvin to celsius
                 double kelvin = Convert.ToDouble(inputTextfield.Text);
                 double celsius = kelvin - 273.15;
@@ -60,6 +73,7 @@ namespace Converter.WinForms {
                 inputUnit.Text = "K";
                 resultUnit.Text = "°C";
             } else {
+                clear();
                 // show error message
                 error.Text = "Temperature below absolute zero!";
             }
