@@ -1,0 +1,17 @@
+C:\Users\noahr\source\repos\Converter\Converter.WinForms\bin\Debug\net6.0-windows\Converter.WinForms.exe
+C:\Users\noahr\source\repos\Converter\Converter.WinForms\bin\Debug\net6.0-windows\Converter.WinForms.deps.json
+C:\Users\noahr\source\repos\Converter\Converter.WinForms\bin\Debug\net6.0-windows\Converter.WinForms.runtimeconfig.json
+C:\Users\noahr\source\repos\Converter\Converter.WinForms\bin\Debug\net6.0-windows\Converter.WinForms.dll
+C:\Users\noahr\source\repos\Converter\Converter.WinForms\bin\Debug\net6.0-windows\Converter.WinForms.pdb
+C:\Users\noahr\source\repos\Converter\Converter.WinForms\obj\Debug\net6.0-windows\Converter.WinForms.csproj.AssemblyReference.cache
+C:\Users\noahr\source\repos\Converter\Converter.WinForms\obj\Debug\net6.0-windows\Converter.WinForms.csproj.GenerateResource.cache
+C:\Users\noahr\source\repos\Converter\Converter.WinForms\obj\Debug\net6.0-windows\Converter.WinForms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\noahr\source\repos\Converter\Converter.WinForms\obj\Debug\net6.0-windows\Converter.WinForms.AssemblyInfoInputs.cache
+C:\Users\noahr\source\repos\Converter\Converter.WinForms\obj\Debug\net6.0-windows\Converter.WinForms.AssemblyInfo.cs
+C:\Users\noahr\source\repos\Converter\Converter.WinForms\obj\Debug\net6.0-windows\Converter.WinForms.csproj.CoreCompileInputs.cache
+C:\Users\noahr\source\repos\Converter\Converter.WinForms\obj\Debug\net6.0-windows\Converter.WinForms.dll
+C:\Users\noahr\source\repos\Converter\Converter.WinForms\obj\Debug\net6.0-windows\refint\Converter.WinForms.dll
+C:\Users\noahr\source\repos\Converter\Converter.WinForms\obj\Debug\net6.0-windows\Converter.WinForms.pdb
+C:\Users\noahr\source\repos\Converter\Converter.WinForms\obj\Debug\net6.0-windows\Converter.WinForms.genruntimeconfig.cache
+C:\Users\noahr\source\repos\Converter\Converter.WinForms\obj\Debug\net6.0-windows\ref\Converter.WinForms.dll
+C:\Users\noahr\source\repos\Converter\Converter.WinForms\obj\Debug\net6.0-windows\Converter.WinForms.MainForm.resources
