@@ -29,7 +29,7 @@ namespace Converter.WinForms {
             } else {
                 clear();
                 // show error message
-                error.Text = "Temperature below absolute zero!";
+                error.Text = "Celsius is below absolute zero!";
             }
         }
 
@@ -45,7 +45,7 @@ namespace Converter.WinForms {
             } else {
                 clear();
                 // show error message
-                error.Text = "Temperature below absolute zero!";
+                error.Text = "Fahrenheit is below absolute zero!";
             }
         }
 
@@ -61,7 +61,7 @@ namespace Converter.WinForms {
             } else {
                 clear();
                 // show error message
-                error.Text = "Temperature below absolute zero!";
+                error.Text = "Celsius is below absolute zero!";
             }
         }
 
@@ -77,7 +77,7 @@ namespace Converter.WinForms {
             } else {
                 clear();
                 // show error message
-                error.Text = "Temperature below absolute zero!";
+                error.Text = "Kelvin is below absolute zero!";
             }
         }
     }
