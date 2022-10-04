@@ -1,0 +1,12 @@
+C:\Users\noahr\source\repos\Converter\Converter.Classes\bin\Debug\net6.0\Converter.Classes.deps.json
+C:\Users\noahr\source\repos\Converter\Converter.Classes\bin\Debug\net6.0\Converter.Classes.dll
+C:\Users\noahr\source\repos\Converter\Converter.Classes\bin\Debug\net6.0\Converter.Classes.pdb
+C:\Users\noahr\source\repos\Converter\Converter.Classes\obj\Debug\net6.0\Converter.Classes.csproj.AssemblyReference.cache
+C:\Users\noahr\source\repos\Converter\Converter.Classes\obj\Debug\net6.0\Converter.Classes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\noahr\source\repos\Converter\Converter.Classes\obj\Debug\net6.0\Converter.Classes.AssemblyInfoInputs.cache
+C:\Users\noahr\source\repos\Converter\Converter.Classes\obj\Debug\net6.0\Converter.Classes.AssemblyInfo.cs
+C:\Users\noahr\source\repos\Converter\Converter.Classes\obj\Debug\net6.0\Converter.Classes.csproj.CoreCompileInputs.cache
+C:\Users\noahr\source\repos\Converter\Converter.Classes\obj\Debug\net6.0\Converter.Classes.dll
+C:\Users\noahr\source\repos\Converter\Converter.Classes\obj\Debug\net6.0\refint\Converter.Classes.dll
+C:\Users\noahr\source\repos\Converter\Converter.Classes\obj\Debug\net6.0\Converter.Classes.pdb
+C:\Users\noahr\source\repos\Converter\Converter.Classes\obj\Debug\net6.0\ref\Converter.Classes.dll

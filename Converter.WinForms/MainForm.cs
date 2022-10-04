@@ -1,3 +1,5 @@
+using Converter.Classes;
+
 namespace Converter.WinForms {
     public partial class MainForm : Form {
         public MainForm() {
@@ -9,7 +11,7 @@ namespace Converter.WinForms {
             Application.Exit();
         }
 
-        private void clear() {
+        public void clear() {
             error.Text = "";
             resultNumber.Text = "";
             resultUnit.Text = "";
@@ -19,8 +21,8 @@ namespace Converter.WinForms {
             if(Convert.ToDouble(inputTextfield.Text) >= -273.15) {
                 clear();
                 // convert celsius to fahrenheit
-                double celsius = Convert.ToDouble(inputTextfield.Text);
-                double fahrenheit = celsius * 1.8 + 32;
+                CelsiusToFahrenheit calculate = new();
+                double fahrenheit = calculate.convert(inputTextfield.Text);
                 resultNumber.Text = Math.Round(fahrenheit, 3).ToString();
                 inputUnit.Text = "°C";
                 resultUnit.Text = "°F";
@@ -35,8 +37,8 @@ namespace Converter.WinForms {
             if(Convert.ToDouble(inputTextfield.Text) >= -459.67) {
                 clear();
                 // convert fahrenheit to celsius
-                double fahrenheit = Convert.ToDouble(inputTextfield.Text);
-                double celsius = (fahrenheit - 32) / 1.8;
+                FahrenheitToCelsius calculate = new();
+                double celsius = calculate.convert(inputTextfield.Text);
                 resultNumber.Text = Math.Round(celsius, 3).ToString();
                 inputUnit.Text = "°F";
                 resultUnit.Text = "°C";
@@ -51,8 +53,8 @@ namespace Converter.WinForms {
             if(Convert.ToDouble(inputTextfield.Text) >= -273.15) {
                 clear();
                 // convert celsius to kelvin
-                double celsius = Convert.ToDouble(inputTextfield.Text);
-                double kelvin = celsius + 273.15;
+                CelsiusToKelvin calculate = new();
+                double kelvin = calculate.convert(inputTextfield.Text);
                 resultNumber.Text = Math.Round(kelvin, 3).ToString();
                 inputUnit.Text = "°C";
                 resultUnit.Text = "K";
@@ -67,8 +69,8 @@ namespace Converter.WinForms {
             if(Convert.ToDouble(inputTextfield.Text) >= 0) {
                 clear();
                 // convert kelvin to celsius
-                double kelvin = Convert.ToDouble(inputTextfield.Text);
-                double celsius = kelvin - 273.15;
+                KelvinToCelsius calculate = new();
+                double celsius = calculate.convert(inputTextfield.Text);
                 resultNumber.Text = Math.Round(celsius, 3).ToString();
                 inputUnit.Text = "K";
                 resultUnit.Text = "°C";

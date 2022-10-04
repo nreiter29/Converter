@@ -6,14 +6,6 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "Converter.WinForms/1.0.0": {
-        "dependencies": {
-          "Converter.Classes": "1.0.0"
-        },
-        "runtime": {
-          "Converter.WinForms.dll": {}
-        }
-      },
       "Converter.Classes/1.0.0": {
         "runtime": {
           "Converter.Classes.dll": {}
@@ -22,11 +14,6 @@
     }
   },
   "libraries": {
-    "Converter.WinForms/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "Converter.Classes/1.0.0": {
       "type": "project",
       "serviceable": false,

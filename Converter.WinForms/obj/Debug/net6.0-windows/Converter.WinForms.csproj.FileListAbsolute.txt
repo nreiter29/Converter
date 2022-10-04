@@ -15,3 +15,6 @@ C:\Users\noahr\source\repos\Converter\Converter.WinForms\obj\Debug\net6.0-window
 C:\Users\noahr\source\repos\Converter\Converter.WinForms\obj\Debug\net6.0-windows\Converter.WinForms.genruntimeconfig.cache
 C:\Users\noahr\source\repos\Converter\Converter.WinForms\obj\Debug\net6.0-windows\ref\Converter.WinForms.dll
 C:\Users\noahr\source\repos\Converter\Converter.WinForms\obj\Debug\net6.0-windows\Converter.WinForms.MainForm.resources
+C:\Users\noahr\source\repos\Converter\Converter.WinForms\bin\Debug\net6.0-windows\Converter.Classes.dll
+C:\Users\noahr\source\repos\Converter\Converter.WinForms\bin\Debug\net6.0-windows\Converter.Classes.pdb
+C:\Users\noahr\source\repos\Converter\Converter.WinForms\obj\Debug\net6.0-windows\Converter.WinForms.csproj.CopyComplete

@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {}
+    "net6.0-windows7.0": {
+      "Converter.Classes/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Converter.Classes.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Converter.Classes.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Converter.Classes/1.0.0": {
+      "type": "project",
+      "path": "../Converter.Classes/Converter.Classes.csproj",
+      "msbuildProject": "../Converter.Classes/Converter.Classes.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": []
+    "net6.0-windows7.0": [
+      "Converter.Classes >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\noahr\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\noahr\\source\\repos\\Converter\\Converter.Classes\\Converter.Classes.csproj": {
+              "projectPath": "C:\\Users\\noahr\\source\\repos\\Converter\\Converter.Classes\\Converter.Classes.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
